@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+nav {
+    background-color:#490404;
+    font-family: 'Dancing Script', cursive;
+    margin: -16px -8px;
+    height: 100px;
+    color:aliceblue;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;  
+}
+ nav img{
+    height:100px;
+     
+ } 
+ #medley{
+     text-align: center;
+     margin: 30px 0;
+     font-size:50px;
+ }
+#home{
+    text-align:left;
+    margin-left:800px;
+    margin-top:45px;
+    font-size:35px;
+}
+#contact{
+    text-align:right;
+    margin-top:45px;
+    font-size:35px;
+    margin-left:40px;
+}
+#about{
+    text-align:right;
+    font-size:35px;
+    margin-top:45px;
+    margin-left:40px;
+}
