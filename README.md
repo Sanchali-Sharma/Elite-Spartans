@@ -1,2 +1,0 @@
-# Elite-Spartans
- Devjam Project

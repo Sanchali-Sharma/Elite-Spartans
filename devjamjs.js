@@ -37,7 +37,7 @@ audioItem.addEventListener('timeupdate',()=>{
     songbar.value=prog;
 })
 songbar.addEventListener('change',()=>{
+    audioItem.pause();
     audioItem.currentTime=(songbar.value*audioItem.duration)/100 ;
+    audioItem.play();
 })
-
-    
