@@ -8,7 +8,10 @@ nav {
     font-family: 'Dancing Script', cursive;
     height: 100px;
     color:aliceblue;
-    position:sticky;
+    position: sticky;
+    top:0;
+
+
 }
 nav ul{
     display: flex;
@@ -27,21 +30,21 @@ nav ul{
     text-align:left;
     margin-left:800px;
     margin-top:45px;
-    font-size:35px;
+    font-size:25px;
     cursor: pointer;
     font-family: 'Ubuntu', sans-serif;
 }
 #contact{
     text-align:right;
     margin-top:45px;
-    font-size:35px;
+    font-size:25px;
     margin-left:40px;
     cursor: pointer;
     font-family: 'Ubuntu', sans-serif;
 }
 #about{
     text-align:right;
-    font-size:35px;
+    font-size:25px;
     margin-top:45px;
     margin-left:40px;
     cursor: pointer;
@@ -70,6 +73,7 @@ audio::-webkit-media-controls-panel {
     border-radius:150px;
     margin-left:80px;
     height:200px;
+    width: 200px;
     cursor: pointer;
 }
 .imagestrending{
@@ -79,4 +83,14 @@ audio::-webkit-media-controls-panel {
     margin-top:20px;
     margin-left: 15px;
     margin-right:15px;
+}
+
+.names ul {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    padding: 10 22px;
+    
+    
 }
