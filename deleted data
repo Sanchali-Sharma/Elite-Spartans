@@ -1,3 +1,30 @@
+<div class="bottom">
+    <div class="icons">
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-solid fa-play" id="play"></i>
+        <i class="fa-solid fa-forward-step"></i>
+    </div>
+    <input type="range" name="range " value="0" id="bar" min="0" max="100">
+</div>
+#bar{
+    height:5px;
+    width:70vw;
+    margin-top:40px;
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+}
+.bottom{
+    position:fixed;
+    bottom:0;
+    right:15vw;
+    left:15vw;
+    height:70px;
+    background-color:black;
+    color:aliceblue;
+}
+
 console.log("hello");
 let index=0;
 let audioItem = new Audio('OSANAM.mp3');
@@ -37,7 +64,7 @@ audioItem.addEventListener('timeupdate',()=>{
     songbar.value=prog;
 })
 songbar.addEventListener('change',()=>{
+    audioItem.pause();
     audioItem.currentTime=(songbar.value*audioItem.duration)/100 ;
+    audioItem.play();
 })
-
-    
